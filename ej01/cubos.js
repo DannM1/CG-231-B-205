@@ -61,6 +61,11 @@ lado=1;
                 geometry3.scale(1/4, 1/4, 1/4 );
                 geometry3.translate( 0.38 ,lado + 0.5, 0.38  );
                 break;
+                case 82: 
+                scene.remove(cube1);
+                scene.remove(cube2);
+                scene.remove(cube3);
+                break;
 
             }
         });
